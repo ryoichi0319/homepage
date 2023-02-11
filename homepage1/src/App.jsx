@@ -1,9 +1,18 @@
-import React from 'react'
+import React from 'react';
+import Sidebar from './Sidebar';
+import './App.css';
 
-const App = () => {
+import { useState } from 'react';
+function App() {
+
+  
   return (
-    <div>App App</div>
-  )
+    <div className="App">
+      <header>header</header>
+      <Sidebar   />
+      
+    </div>
+  );
 }
 
-export default App
+export default App;

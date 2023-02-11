@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+
+  
+}
+
+#page-wrap {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+body{
+  text-align: center;
+
+}
+
+
+.active {
+  color:rgb(160, 157, 7);
+  
+ 
+}
