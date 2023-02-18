@@ -1,0 +1,31 @@
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Noto Sans JP", "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+  }
+  
+  #page-wrap {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  
+  body {
+    background-color: antiquewhite;
+    margin: 0;
+  }
+  
+  .active {
+    color: rgb(238, 238, 229);
+  }
+  
+  .section-headline {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 0 40px 0;
+  }/*# sourceMappingURL=index.css.map */
+  
+  .section{
+    padding:30px 10px;
+  }
+     

@@ -1,0 +1,103 @@
+import { BrowserRouter, Route, Switch, Link, NavLink } from "react-router-dom";
+import Home from './components/Home/Home'
+import About from './components/About/About'
+import Contact from './components/Contact/Contact'
+// import Wine from "./components/Wine";
+import NotFound from "./components/NotFound";
+import { elastic as Menu} from 'react-burger-menu';
+import './Sidebar.css'
+import './index.css'
+import { useState,useRef,useEffect } from "react";
+import styled from "styled-components"
+
+function Sidebar() {
+  const [state, setState] = useState({menuOpen:false})
+  
+    const handleClick = (state) =>{
+  
+      setState({menuOpen:state.isOpen})
+    }
+    const closeMenu =()=>{
+      setState({menuOpen:false})
+    }
+  
+  const toggleMenu =()=> {
+    this.setState(state => ({menuOpen: !state.menuOpen}))
+  }
+
+ 
+
+
+  
+  
+  return (
+   
+    <div className="outer">
+      
+    <BrowserRouter  >
+    
+    <Menu pageWrapId={ "page-wrap" } 
+    isOpen={state.menuOpen}
+    onStateChange={(state) => handleClick(state)} right> 
+    <ul >
+      
+      <li>
+        <NavLink activeClassName="active" exact to="/"   className="menu-item"
+        onClick={()=>closeMenu()}>
+        
+          Home  
+         
+        </NavLink>
+      </li>
+      <li>
+        <NavLink activeClassName="active" to="/about" className="menu-item" 
+        onClick={()=>closeMenu()}>
+         
+          About
+         
+        </NavLink>
+      </li>
+      <li>
+        <NavLink activeClassName="active" to="/contact" className="menu-item" 
+        onClick={()=>closeMenu()}>
+        Contact
+        </NavLink>
+      </li>
+      {/* <li>
+        <NavLink activeClassName="active" to="/wine"  className="menu-item" id="4">
+          Wine
+        </NavLink>
+      </li> */}
+    </ul>
+   
+    </Menu>
+       <div id="page-wrap">
+      <Switch>
+      <Route exact path="/"  >
+        <Home  />aaa
+      </Route>
+      <Route path="/about">
+        <About />
+      </Route>
+      <Route path="/contact">
+        <Contact />
+        </Route>
+        {/* <Route path="/wine">
+        <Wine />
+      </Route> */}
+      <Route>
+        <NotFound />
+      </Route>
+      </Switch>
+      </div>
+      
+    </BrowserRouter>
+    
+    </div>
+   
+  );
+}
+
+
+
+export default Sidebar

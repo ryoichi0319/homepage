@@ -1,0 +1,23 @@
+header{
+  width: 100%;
+}
+.headerLogoContent {
+  width: 100%;
+  background-color: white;
+}
+.headerLogoContent .headerLogo {
+  width: 500px;
+  display: flex;
+  height: 120px;
+  margin: 10px 5px 0px 10px;
+}
+.headerLogoContent .headerLogo .logoText {
+  display: flex;
+}
+.headerLogoContent .headerLogo .logoText .socialText {
+  margin-top: 35px;
+  padding: 10px;
+}
+.headerLogoContent .headerLogo .logoText .asisaiText {
+  margin-top: 35px;
+}/*# sourceMappingURL=Header.css.map */
