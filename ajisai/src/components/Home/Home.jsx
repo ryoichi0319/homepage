@@ -20,7 +20,7 @@ const Home = () => {
                 
                     text text text text text text text text text text text text text
                     <br/>yyyy
-                    ext text text text text text text text text text text text
+                    ext text text text text text text text text text text text text
                     
                 
                 <br />
