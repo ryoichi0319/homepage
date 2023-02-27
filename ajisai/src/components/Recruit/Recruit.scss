@@ -1,0 +1,42 @@
+.body{
+    font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif;
+}
+.recruit{
+   width: 100%;
+    background-color: aquamarine;
+
+
+    .recruit-table{
+        margin: 0 auto;
+        text-align: center;
+        border-collapse: separate;
+        width: 1000px;
+       
+            th{
+                background-color: rgb(21, 84, 111);
+                color: rgb(240, 233, 233);
+            }
+            tr{
+                background-color: aqua;
+                
+                td{ 
+                    padding: 2em;
+                    border: 1px solid black;
+                    border-collapse: collapse;
+
+                }
+                :nth-child(1){
+                    background-color: rgb(21, 84, 111);
+                    color: white;
+                    width: 30%;
+
+                   
+                }
+                
+                
+            }
+         
+    
+    }
+    
+}

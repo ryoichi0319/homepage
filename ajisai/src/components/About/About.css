@@ -1,0 +1,35 @@
+.company-greeting {
+  background-color: aliceblue;
+  text-align: center;
+}
+
+.company-text {
+  font-size: 2em;
+}
+
+.company-title {
+  text-align: center;
+}
+
+.company-contents {
+  margin-top: 20px;
+}
+
+.collapse {
+  margin: 15px auto 0;
+  width: 800px;
+  text-align: center;
+  font-size: 1.4em;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+th {
+  padding: 10px;
+  background-color: rgb(87, 140, 226);
+}
+
+td {
+  padding: 10px;
+  background-color: aliceblue;
+}/*# sourceMappingURL=About.css.map */

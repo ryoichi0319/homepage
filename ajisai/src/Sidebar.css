@@ -1,3 +1,5 @@
+
+
 /* Position and sizing of burger button */
 .bm-burger-button {
     position: fixed;
@@ -61,7 +63,7 @@
   /* Wrapper for item list */
   .bm-item-list {
     background-color: rgb(187, 131, 19);
-    padding: 0.8em;
+    padding: 0.8zem;
   }
   
   /* Individual item */
@@ -87,15 +89,19 @@
     text-align: left;
     text-decoration: none;
     transition: color 0.2s;
+   
+    
   }
   
   .bm-item:hover {
     color: #ffffff;
   }
-  
+  .menu-li{
+    padding-bottom: 20px;
+  }
   
   .menu-item{
-    font-size: 2em;
+    font-size: 1.9em;
     font-weight: bold;
     background-color: rgb(187, 131, 19);
     border: none;
@@ -103,7 +109,8 @@
     color: black;
     border-bottom: none;
     text-decoration: none;
-    padding:10px;
+   
+   
   }
   .menu-item:hover{
     color: rgb(189, 189, 44);

@@ -1,5 +1,5 @@
 import React from 'react'
-import ajisailogo2 from '../components/img/ajisailogo2.jpg'
+import ajisailogo2 from '../img/ajisailogo2.jpg'
 import './Header.scss'
 
 const Header = () => {

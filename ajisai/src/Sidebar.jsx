@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Switch, Link, NavLink } from "react-router-dom";
 import Home from './components/Home/Home'
 import About from './components/About/About'
 import Contact from './components/Contact/Contact'
+import Recruit from './components/Recruit/Recruit'
 // import Wine from "./components/Wine";
 import NotFound from "./components/NotFound";
 import { elastic as Menu} from 'react-burger-menu';
@@ -9,6 +10,10 @@ import './Sidebar.css'
 import './index.css'
 import { useState,useRef,useEffect } from "react";
 import styled from "styled-components"
+import AddHomeIcon from '@mui/icons-material/AddHome';
+import BusinessIcon from '@mui/icons-material/Business';
+import AttachEmailIcon from '@mui/icons-material/AttachEmail';
+import Person3Icon from '@mui/icons-material/Person3';
 
 function Sidebar() {
   const [state, setState] = useState({menuOpen:false})
@@ -36,31 +41,40 @@ function Sidebar() {
       
     <BrowserRouter  >
     
-    <Menu pageWrapId={ "page-wrap" } 
-    isOpen={state.menuOpen}
+    <Menu pageWrapId={ "page-wrap" }
+    isOpen={state.menuOpen} className="menu"
     onStateChange={(state) => handleClick(state)} right> 
-    <ul >
+    <ul  >
       
-      <li>
+      <li className="menu-li">
         <NavLink activeClassName="active" exact to="/"   className="menu-item"
         onClick={()=>closeMenu()}>
-        
+        <AddHomeIcon />
           Home  
          
         </NavLink>
       </li>
-      <li>
+      <li className="menu-li">
         <NavLink activeClassName="active" to="/about" className="menu-item" 
         onClick={()=>closeMenu()}>
+          <BusinessIcon />
          
           About
          
         </NavLink>
       </li>
-      <li>
+      <li className="menu-li">
         <NavLink activeClassName="active" to="/contact" className="menu-item" 
         onClick={()=>closeMenu()}>
+          <AttachEmailIcon />
         Contact
+        </NavLink>
+      </li>
+      <li className="menu-li">
+        <NavLink activeClassName="active" to="/recruit" className="menu-item" 
+        onClick={()=>closeMenu()}>
+          <Person3Icon />
+        Recruit
         </NavLink>
       </li>
       {/* <li>
@@ -81,6 +95,9 @@ function Sidebar() {
       </Route>
       <Route path="/contact">
         <Contact />
+        </Route>
+        <Route path="/recruit">
+        <Recruit />
         </Route>
         {/* <Route path="/wine">
         <Wine />

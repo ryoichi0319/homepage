@@ -1,3 +1,6 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
 .about{
 
 }
@@ -10,23 +13,43 @@
 
 }
 .company-text{
-    font-size: 2em;
+    font-size: 1.3em;
+    border-left: 2px solid red ;
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
 }
 .company-title{
    text-align: center;
 
 }
-.collapse{
-    width: 600px;
-    font-size: 2em;
+.company-contents{
+    margin-top: 20px;
+}
+.company-table{
+    
+    margin: 15px auto 0;
+    width: 800px;
+    text-align: center;
+    font-size: 1.4em;
     border-collapse: collapse;
-    border: 1px solid black;
+    border: 1px solid rgb(128, 120, 120);
+
+
+    .company-row{
+        background-color: yellow;
+
+        :nth-child(1){
+            width: 30%;
+        }
+    }
     
 }
 
-th{padding: 10px;
+th{padding: 2em;
+    color: white;
    
-    background-color: aquamarine;
+    background-color: rgb(21, 84, 111);
 }
 td{
     padding: 10px;

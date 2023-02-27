@@ -1,0 +1,12 @@
+.home {
+  display: flex;
+}
+
+.home-caption {
+  padding-left: 15px;
+}
+
+.home-headline {
+  margin: 0 0 20px;
+  font-size: 2em;
+}/*# sourceMappingURL=Home.css.map */

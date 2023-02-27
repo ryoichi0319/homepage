@@ -1,0 +1,18 @@
+.mainContent {
+  text-align: center;
+  font-size: 1.2em;
+  align-items: center;
+  justify-content: center;
+}
+.mainContent .contact-table {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.contact-send {
+  margin-top: 20px;
+}
+
+.contact-canceled {
+  margin-top: 20px;
+}/*# sourceMappingURL=Contact.css.map */
