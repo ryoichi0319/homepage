@@ -1,24 +1,36 @@
-// .tel-content{
+.mainContent{
+    text-align: center;
+    font-size: 1.2em;
+    align-items: center;
+    justify-content: center;
+    .page-title{
+        font-size: 1.2em;
+    }
+    .contact-table{
+        width: 800px;
+        margin: 0 auto;
+        border-collapse: collapse;
+        
+        
+           .contact-data{
+            background-color: rgb(21, 84, 111);
+            color: white;
+        }
 
-//     text-align: center;
-// }
-// table{
-//     padding: 10px;
-//    margin: 0 auto;
-//     background-color: aqua;
-//    border: 6px  inset;
-// }
-// th{ font-size: 3em;
-//     padding-right:10px ;
-//     border:3px inset;
+            td{ background-color: F0F8FF;
+                border: 1px solid rgb(128, 120, 120);
+            }
+        
+
+        
+    }
     
-// }
-// td{
-//     border: 3px inset;
-// }
-
-.inquiry{text-align: center;
 }
-table{
-    margin: 0 auto;
+
+
+.contact-send{
+    margin-top: 20px;
+}
+.contact-canceled{
+    margin-top: 20px;
 }

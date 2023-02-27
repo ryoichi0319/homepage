@@ -1,5 +1,10 @@
+.about-home{
+    width: 1260px;
+    
+}
 .home{
 display: flex;
+margin-left: 50px;
 }
 .home-img{
 
@@ -14,4 +19,32 @@ font-size: 2em;
 .home-desctiption{
 
 }
-                
+.home2{
+    display: flex;
+   justify-content: center;
+    background-color: aqua;
+    
+    }
+    .home-img2{
+    margin-top: 30px;
+    }
+    .home-caption2{
+   text-align: center;
+    padding-right: 15px;
+    }
+    .home-headline2{
+    margin: 20px 0 ;
+    font-size: 2em;
+    }
+    .home-desctiption2{
+        margin-right: 50px;
+    
+    }
+
+.section2{
+
+    .home-four{
+        display: flex;
+        justify-content: space-around;
+    }
+}

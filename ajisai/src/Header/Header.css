@@ -1,9 +1,6 @@
-header{
-  width: 100%;
-}
 .headerLogoContent {
-  width: 100%;
   background-color: white;
+  width: 1260px;
 }
 .headerLogoContent .headerLogo {
   width: 500px;

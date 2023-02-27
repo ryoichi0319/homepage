@@ -1,12 +1,12 @@
 * { 
     box-sizing: border-box;
     margin: 0;
-    font-family: "Noto Sans JP", "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+    /* font-family: "Noto Sans JP", "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif; */
   }
   
   #page-wrap {
     padding-bottom: 10px;
-    padding-top: 10px;
+    
   }
   
   body {

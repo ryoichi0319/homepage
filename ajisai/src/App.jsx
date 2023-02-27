@@ -1,7 +1,7 @@
 import React from 'react';
 import Sidebar from './Sidebar';
 import './App.css';
-import Slider from './components/Slider';
+import Slider from './components/Home/Slider';
 import Header from './Header/Header'
 
 
