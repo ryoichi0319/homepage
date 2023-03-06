@@ -1,0 +1,41 @@
+.HomeNav{
+     
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    }
+    .HomeNav ul{
+    margin: 0 ;
+    padding: 0 ;
+    }
+    .HomeNav li{
+    list-style: none;
+    display: inline-block;
+    width: 10%;
+    min-width: 90px;
+    }
+    .HomeNav li:not(:last-child){
+    border-right:2px solid rgb(27, 5, 21);
+    }
+    .HomeNav a{
+        display: inline-block;
+    text-decoration: none;
+    color: #333;
+    transition: all .3s ease 0s;
+    -webkit-transform: scale(1);
+  transform: scale(1);
+  border-bottom: 3px solid transparent;
+
+
+    
+    }
+    
+    .HomeNav a:hover{
+    color: rgb(194, 32, 32) ;
+    
+    -webkit-transform: scale(1.1);
+    transform: scale(1.2);
+    border-bottom: 3px solid rgb(194, 32, 32) ;
+    padding-left: 15px;
+    padding-right: 15px;
+    }

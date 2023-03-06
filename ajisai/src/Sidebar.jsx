@@ -3,7 +3,7 @@ import Home from './components/Home/Home'
 import About from './components/About/About'
 import Contact from './components/Contact/Contact'
 import Recruit from './components/Recruit/Recruit'
-// import Wine from "./components/Wine";
+// import GoogleMapComponent from "./components/Access/Google";
 import NotFound from "./components/NotFound";
 import { elastic as Menu} from 'react-burger-menu';
 import './Sidebar.css'
@@ -14,6 +14,8 @@ import AddHomeIcon from '@mui/icons-material/AddHome';
 import BusinessIcon from '@mui/icons-material/Business';
 import AttachEmailIcon from '@mui/icons-material/AttachEmail';
 import Person3Icon from '@mui/icons-material/Person3';
+import MyComponent from "./components/Access/Google";
+import { Google } from "@mui/icons-material";
 
 function Sidebar() {
   const [state, setState] = useState({menuOpen:false})
@@ -77,11 +79,12 @@ function Sidebar() {
         Recruit
         </NavLink>
       </li>
-      {/* <li>
-        <NavLink activeClassName="active" to="/wine"  className="menu-item" id="4">
-          Wine
+      <li>
+        <NavLink activeClassName="active" to="/access"  className="menu-item"
+        onClick={()=>closeMenu()}>
+          Access
         </NavLink>
-      </li> */}
+      </li>
     </ul>
    
     </Menu>
@@ -99,9 +102,9 @@ function Sidebar() {
         <Route path="/recruit">
         <Recruit />
         </Route>
-        {/* <Route path="/wine">
-        <Wine />
-      </Route> */}
+        <Route path="/access">
+        <MyComponent />
+      </Route>
       <Route>
         <NotFound />
       </Route>
