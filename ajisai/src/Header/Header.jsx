@@ -1,20 +1,21 @@
 import React from 'react'
-import ajisailogo2 from '../img/ajisailogo2.jpg'
+import ajisaiok1 from '../img/ajisaiok1.png'
 import './Header.scss'
 
 const Header = () => {
   return (
     <div>
-    <header>
+    <header className='header-header'>
         <div className="headerLogoContent">
             <div className="headerLogo">
-             <img src={ajisailogo2} width="100px" height="100px" alt=""/>
+             <img src={ajisaiok1} width="80px" height="80px" alt=""/>
+            
               
              <div className="logoText">
                       <p className='socialText'>有限会社</p>
                       <h1 className='asisaiText'>あじさい物流</h1>
                     
-           </div>
+                      </div>
            </div>
 
 </div>

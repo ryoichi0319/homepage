@@ -42,8 +42,9 @@
     position: fixed;
     height: 100%;
     /* transition: '' !important; */
-    background-color: rgb(187, 131, 19);
+    background-color:rgb(215, 213, 213);
    top:0px;
+   
     
   }
   
@@ -52,18 +53,19 @@
     background: #373a47;
     padding: 2.5em 1.5em 0;
     font-size: 1.15em;
-    background-color: rgb(187, 131, 19);
+    background-color:rgb(215, 213, 213);
   }
   
   /* Morph shape necessary with bubble or elastic */
   .bm-morph-shape {
-    fill:rgb(187, 131, 19);
+    fill:    rgb(215, 213, 213);
+
   }
   
   /* Wrapper for item list */
   .bm-item-list {
-    background-color: rgb(187, 131, 19);
-    padding: 0.8zem;
+    background-color:rgb(215, 213, 213);
+    padding: 0.8em;
   }
   
   /* Individual item */
@@ -75,15 +77,13 @@
   .bm-overlay {
     background: rgba(0, 0, 0, 0.3);
     top:0;
-    position: absolute;
-   
-    
+  
   }
   
   /* Individual item */
   .bm-item {
     display: inline-block;
-    background-color: rgb(187, 131, 19);
+    background-color:rgb(215, 213, 213);
     color: #d1d1d1;
     margin-bottom: 10px;
     text-align: left;
@@ -103,7 +103,7 @@
   .menu-item{
     font-size: 1.9em;
     font-weight: bold;
-    background-color: rgb(187, 131, 19);
+    background-color:rgb(215, 213, 213);
     border: none;
     cursor: pointer;
     color: black;
@@ -113,7 +113,7 @@
    
   }
   .menu-item:hover{
-    color: rgb(189, 189, 44);
+    color: rgb(140, 33, 12);
   }
   li{
     list-style: none;

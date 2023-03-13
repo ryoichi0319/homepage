@@ -7,15 +7,12 @@ const About = () => {
       <div className='company-greeting'>
        <h1>ご挨拶</h1>
        <img className='company-img' src="https://placehold.jp/300x300.png" alt="" width="800px" height="300px"/>
-       <p className='company-text'>信頼を一番に考える 運送会社
+       <p className='company-text'>&nbsp;&nbsp;信頼を一番に考える 運送会社
 
-​有限会社あじさい物流は2000年8月に創立し、皆様に愛されて20年、ここまで走り続けてきました。長年続けて分かった事は、信頼が一番重要だということです。信頼がないような会社に仕事も依頼出来ません。信頼できない従業員に仕事を任せる事も出来ません。信頼ある会社だからこそ仕事が依頼出来るし、信頼ある従業員だからこそ仕事が任せられます。弊社がここまでこれたのも、信頼できる従業員がお客様のニーズにあった満足できるサービス行い、お客様に信頼されるような会社になったからだと思います。弊社には経験豊富な信頼ある従業員ばかりです。その一人、一人が自信をもって責任ある仕事をやってくれます。この業界は一人で配達する事が多いため個々の信頼は弊社にとっても、お客様にとっても、とても重要だと考えています。信頼できる従業員、それこそが弊社の一番の強みであり、誇りです。
-
-​​　　　　　　　
-
-代表取締役　加賀田　龍彦
-
-texttext text text text text texttext text text text text text</p>
+​有限会社あじさい物流は2000年8月に創立し、皆様に愛されて20年、ここまで走り続けてきました。長年続けて分かった事は、信頼が一番重要だということです。信頼がないような会社に仕事も依頼出来ません。信頼できない従業員に仕事を任せる事も出来ません。信頼ある会社だからこそ仕事が依頼出来るし、信頼ある従業員だからこそ仕事が任せられます。
+<br/>&nbsp;&nbsp;弊社がここまでこれたのも、信頼できる従業員がお客様のニーズにあった満足できるサービス行い、お客様に信頼されるような会社になったからだと思います。弊社には経験豊富な信頼ある従業員ばかりです。その一人、一人が自信をもって責任ある仕事をやってくれます。この業界は一人で配達する事が多いため個々の信頼は弊社にとっても、お客様にとっても、とても重要だと考えています。信頼できる従業員、それこそが弊社の一番の強みであり、誇りです。
+</p>
+<p className='company-ceo'>代表取締役　加賀田　龍彦</p>
       </div>
       <div className='company-contents'>
         <div className="company-title">
@@ -26,14 +23,27 @@ texttext text text text text texttext text text text text text</p>
         <th>社名</th>
         <td>あじさい物流</td>
        </tr>
-       <tr>
+       <tr className='company-row'>
         <th>資本金</th>
         <td>。。。万円</td>
        </tr>
-       <tr>
+       <tr className='company-row'>
         <th>設立</th>
         <td>2000年</td>
        </tr>
+       <tr className='company-row'>
+        <th>所在地</th>
+        <td>〒566-0054 大阪府摂津市鳥飼八防１丁目８−４ 井上ビル</td>
+       </tr>
+       <tr className='company-row'>
+        <th>電話番号</th>
+        <td>072-665-6498</td>
+       </tr>
+       <tr className='company-row'>
+        <th>従業員数</th>
+        <td>、、、人</td>
+       </tr>
+       
       </table>
       </div>
     </div>

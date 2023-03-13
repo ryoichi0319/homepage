@@ -1,19 +1,4 @@
-.news{
-    text-align: center;
 
-}
-.section-headline{
-
-}
-  
-.news-{
-
-}
-.newsChild{
-    border-bottom: 1px solid rgb(65, 60, 60);
-}
-      
-.newsChild2
 
 
 
@@ -26,37 +11,80 @@
 .home{
 display: flex;
 margin-left: 50px;
+    
+     
 }
 .home-img{
 
 }
 .home-caption{
 padding-left: 15px;
+width: 500px;
+     
+       .home-about-gyomu{
+        width: 200px;
+        height: 50px;
+        background: linear-gradient(45deg, #B67B03 0%, #DAAF08 45%, #FEE9A0 70%, #DAAF08 85%, #B67B03 90% 100%);
+    font-size: 1.2em;
+    border-radius: 10px;
+   
+    margin-left: 150px;
+    margin-top: 20px;
+    cursor: pointer;
+    
+    
+       }
 }
 .home-headline{
-margin: 0 0 20px;
+margin: 0 0 25px;
 font-size: 2em;
+border-bottom: solid 3px #B67B03 
 }
 .home-desctiption{
 
 }
+
 .home2{
     display: flex;
    justify-content: center;
     }
     .home-img2{
     margin-top: 30px;
+    margin-right: -50px;
     }
     .home-caption2{
    text-align: center;
     padding-right: 15px;
+         
+    
     }
+    .home-about-ajisai{
+        width: 200px;
+        height: 50px;
+        background: linear-gradient(45deg, #B67B03 0%, #DAAF08 45%, #FEE9A0 70%, #DAAF08 85%, #B67B03 90% 100%);
+    font-size: 1.2em;
+    border-radius: 10px;
+    
+   
+    margin-left: 100px;
+    margin-top: 40px;
+    cursor: pointer;
+    
+    
+    
+       }
     .home-headline2{
-    margin: 20px 0 ;
+    margin: 20px 20px 0 -30px ;
+    
+    text-align: left;
     font-size: 2em;
+    border-bottom: solid 3px #B67B03 
+
     }
     .home-desctiption2{
         margin-right: 50px;
+        margin-top: 20px;
+
     
     }
 

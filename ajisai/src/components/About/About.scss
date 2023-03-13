@@ -1,12 +1,15 @@
 body{
-    font-family: 'Courier New', Courier, monospace;
+        background-color: aliceblue;
+
 }
 .about{
 
 }
 .company-greeting{
-    background-color: aliceblue;
+    background-color: rgb(255, 250, 250);
    text-align: center;
+   width: 1000px;
+   margin: 0 auto;
 }
 .company-img{
     
@@ -14,10 +17,16 @@ body{
 }
 .company-text{
     font-size: 1.3em;
-    border-left: 2px solid red ;
-    text-align: center;
-    width: 600px;
-    margin: 0 auto;
+    
+    text-align: left;
+    width: 900px;
+    margin: 30px 300px 30px 30px;
+    line-height: 2em;
+}
+.company-ceo{
+    text-align: right;
+    margin-right: 10px;
+    font-size: 1.1em;
 }
 .company-title{
    text-align: center;
@@ -29,29 +38,30 @@ body{
 .company-table{
     
     margin: 15px auto 0;
-    width: 800px;
+    width: 900px;
     text-align: center;
-    font-size: 1.4em;
+    font-size: 1.1em;
     border-collapse: collapse;
     border: 1px solid rgb(128, 120, 120);
 
 
     .company-row{
-        background-color: yellow;
 
         :nth-child(1){
             width: 30%;
+        }
+        th{padding: 1em;
+            color: rgb(246, 238, 238);
+           
+            background-color: rgb(21, 84, 111);
+        }
+        td{ text-align: left;
+            padding: 10px;
+            background-color: rgb(255, 250, 250);
+            padding-left: 30px;
         }
     }
     
 }
 
-th{padding: 2em;
-    color: white;
-   
-    background-color: rgb(21, 84, 111);
-}
-td{
-    padding: 10px;
-    background-color: aliceblue;
-}
+

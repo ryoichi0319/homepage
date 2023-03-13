@@ -14,8 +14,9 @@ import AddHomeIcon from '@mui/icons-material/AddHome';
 import BusinessIcon from '@mui/icons-material/Business';
 import AttachEmailIcon from '@mui/icons-material/AttachEmail';
 import Person3Icon from '@mui/icons-material/Person3';
-import MyComponent from "./components/Access/Google";
+import MapIcon from '@mui/icons-material/Map';
 import { Google } from "@mui/icons-material";
+import GoogleM1 from "./components/Access/GoogleM1";
 
 function Sidebar() {
   const [state, setState] = useState({menuOpen:false})
@@ -82,6 +83,7 @@ function Sidebar() {
       <li>
         <NavLink activeClassName="active" to="/access"  className="menu-item"
         onClick={()=>closeMenu()}>
+          <MapIcon/>
           Access
         </NavLink>
       </li>
@@ -103,7 +105,7 @@ function Sidebar() {
         <Recruit />
         </Route>
         <Route path="/access">
-        <MyComponent />
+        <GoogleM1 />
       </Route>
       <Route>
         <NotFound />
